@@ -1,0 +1,184 @@
+@font-face{
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+    font-family: Hanken;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Hanken;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+.main{
+    background-color: white;
+    height: 70vh;
+    width: 90vh;
+    border-radius: 25px;
+    border: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.layer1{
+    background-color: rgba(0, 0, 255, 0.705);
+    height: 70vh;
+    width: 30vw;
+    border: 0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.head1{
+    color: rgb(173, 173, 173);
+    margin-top: 30px;
+    font-size: 19px;
+
+}
+.score{
+    border: 0;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.062);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    color: rgb(173, 173, 173);
+    margin-top: 25px;
+}
+.no{
+    color: white;
+    font-size: 70px;
+}
+.comment{
+    color: white;
+    margin-top: 15px;
+}
+.comment1{
+    color: white;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.layer2{
+    height: 70vh;
+    width: 30vw;
+    border: 0;
+    margin-left: 30px;
+}
+.head2{
+    color: black;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.reaction{
+    border: 0;
+    border-radius: 10px;
+    width: 230px;
+    height: 45px;
+    background-color: rgba(255, 0, 0, 0.199);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-r{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+.mark{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.total{
+    color: rgb(173, 173, 173);
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.memory{
+    border: 0;
+    border-radius: 10px;
+    width: 230px;
+    height: 45px;
+    background-color: rgba(255, 255, 0, 0.199);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.t-m{
+    color: yellow;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+.verbal{
+    border: 0;
+    border-radius: 10px;
+    width: 230px;
+    height: 45px;
+    background-color: rgba(3, 240, 3, 0.199);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-ve{
+    color: rgb(3, 240, 3);
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-left: 15px;
+}
+.visual{
+    border: 0;
+    border-radius: 10px;
+    width: 230px;
+    height: 45px;
+    background-color: rgba(0, 0, 255, 0.199);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-vi{
+    color: rgb(0, 0, 255);
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-left: 15px;
+}
+.continue{
+    border: 0;
+    border-radius: 30px;
+    width: 230px;
+    height: 45px;
+    background-color: rgb(35, 35, 73);
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+.continue:hover{
+    background-color: rgb(91, 91, 150); 
+    font-size: 16px;
+}
